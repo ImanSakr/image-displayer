@@ -1,0 +1,245 @@
+@media all and (orientation: portrait){
+
+    *{
+        padding:0;
+        margin:0;
+
+    }
+
+    #all{
+        border: 1px solid RosyBrown;
+        display:-webkit-box;
+        box-shadow: LavenderBlush -10px -10px 20px,bisque 10px 10px 20px;
+        width: 60%;
+        height: 60%;
+		overflow: scroll;
+
+
+    }
+    RightDiv,LeftDiv{
+        -webkit-box-flex:1;
+    }
+    #RightDiv{
+        display: block ;
+        border: 5px solid MistyRose;
+        box-shadow: burlywood -10px -10px 20px,LavenderBlush 10px 10px 20px;
+        width: 30%;
+        height: 95%;
+        background: -webkit-radial-gradient(circle,Bisque,cyan);
+        margin: 5px;
+        -webkit-box-orient: vertical;
+        -webkit-column-count: 3;
+        -webkit-column-rule: 2px solid burlywood ;
+        -webkit-box-flex:1;
+
+        max-width: 50%;
+		overflow: scroll;
+
+
+    }
+
+    #LeftDiv{
+        display: inline-block;
+        border: 5px solid MistyRose;
+        box-shadow: burlywood 10px 10px 20px,LavenderBlush -10px -10px 20px ;
+        width: 60%;
+        height: 95%;
+        background: -webkit-radial-gradient(circle,whitesmoke,paleturquoise);
+        -webkit-box-orient: vertical;
+        margin: 10px;
+        display:-webkit-box;
+        overflow-y: scroll;
+		overflow: scroll;
+
+
+    }
+
+    *div{
+        text-align: center;
+    }
+
+
+    img{
+        display: inline-block ;
+        width: 90px;
+        height: 90px;
+        padding: 2px;
+        margin: 2px;
+        border: 3px solid thistle;
+        /*border-radius: 45px;*/
+        /*float: left;*/
+
+    }
+
+    mark:hover {
+        font-size: large;
+        color: dodgerblue;
+        font-family: buxton sketch;
+        text-decoration: underline;
+		transition-duration: 0.8s;
+		transition-property: transform;
+
+    }
+    img:hover{
+        -webkit-transform: scale(1.2);
+        /*position: relative;*/
+        position: absolute;
+        z-index:auto;
+        padding: 5px;
+
+        margin-top: 2px;
+        text-align: center;
+    }
+	mark{
+		-webkit-transition: -webkit-transform 2000ms;
+	}
+    img{
+        -webkit-transition: -webkit-transform 2000ms;
+    }
+    img:active{
+        -webkit-transform: scale(6);
+        position: absolute;
+        z-index:auto;
+    }
+
+    #all{
+        -webkit-transition:-webkit-transform 7s;
+        transition-duration: 3s;
+        transition-delay: 300ms;
+    }
+    #all:hover{
+        -webkit-transform:skew(20deg);
+    }
+    #all:active {
+        -webkit-transform: scale(0.5);
+
+
+    }
+}
+
+
+
+
+
+
+
+
+@media all and (orientation: landscape){
+
+    *{
+        padding:0;
+        margin:0;
+
+    }
+
+    #all{
+        border: 1px solid RosyBrown;
+        display:-webkit-box;
+        box-shadow: LavenderBlush -10px -10px 20px,bisque 10px 10px 20px;
+        width: 60%;
+        height: 60%;
+        /*text-align: center;*/
+        -webkit-box-flex:1;
+        margin: 50px 235px ;
+
+
+    }
+    RightDiv,LeftDiv{
+        /*display: -webkit-box;*/
+        -webkit-box-flex:1;
+    }
+    #RightDiv{
+        display: block ;
+        border: 5px solid MistyRose;
+        box-shadow: burlywood -10px -10px 20px,LavenderBlush 10px 10px 20px;
+        width: 30%;
+        height: 95%;
+        background: -webkit-radial-gradient(circle,Bisque,cyan);
+        margin: 5px;
+        -webkit-box-orient: vertical;
+        -webkit-column-count: 3;
+        -webkit-column-rule: 2px solid burlywood ;
+        -webkit-box-flex:1;
+        overflow-x: scroll;
+        max-width: 50%;
+
+    }
+
+    #LeftDiv{
+        display: inline-block;
+        border: 5px solid MistyRose;
+        box-shadow: burlywood 10px 10px 20px,LavenderBlush -10px -10px 20px ;
+        width: 60%;
+        height: 95%;
+        background: -webkit-radial-gradient(circle,whitesmoke,paleturquoise);
+        -webkit-box-orient: vertical;
+        margin: 10px;
+        display:-webkit-box;
+        overflow-y: scroll;
+
+        /*-webkit-box-flex:1;*/
+
+    }
+
+    *div{
+        text-align: center;
+    }
+
+
+    img{
+        display: inline-block ;
+        width: 90px;
+        height: 90px;
+        padding: 2px;
+        margin: 2px;
+        border: 3px solid thistle;
+    }
+
+   mark:hover {
+        font-size: large;
+        color: dodgerblue;
+       font-family: buxton sketch;
+        text-decoration: underline;
+
+
+
+    }
+    img:hover{
+        -webkit-transform: scale(1.5);
+
+        /*padding: 10px;*/
+
+
+    margin-top: 2px;
+        text-align: center;
+        }
+    img{
+        -webkit-transition: -webkit-transform 2000ms;
+        border-bottom-left-radius: 45%;
+    }
+    img:active{
+        -webkit-transform: scale(3.5);
+        position: absolute;
+        z-index:auto;
+        padding: 5px;
+    }
+    #all{
+        -webkit-transition:-webkit-transform 7s;
+        transition-duration: 3s;
+        transition-delay: 300ms;
+    }
+    #all:hover{
+       -webkit-transform:skew(20deg);
+
+    #all:active {
+        -webkit-transform: scale(0.5);
+
+
+    }
+}
+
+
+
+
+
+
